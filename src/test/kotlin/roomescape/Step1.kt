@@ -35,9 +35,12 @@ class Step1 {
         actual.append(5)
 
         // then
-        val expected = "" // TODO: 결과값 예상
+        val expected = "42315" // TODO: 결과값 예상
         /*
             TODO: 간단한 풀이과정 작성
+            가장 딜레이 시간이 적은 4가 먼저 추가됨
+            이후 순서대로 딜레이 시간에 따라 2, 3, 1 추가됨
+            5는 deferred의 결과인 1이 추가될 때까지 suspend 되어 있다가 마지막에 추가됨
          */
 
         // assert문 수정하지 마세요!

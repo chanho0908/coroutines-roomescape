@@ -40,9 +40,11 @@ class Step3 {
         job.join()
 
         // then
-        val expected = "" // TODO: 결과값 예상
+        val expected = "E21" // TODO: 결과값 예상
         /*
             TODO: 간단한 풀이과정 작성
+            100ms 후 E2 예외 발생하여 밑에 있는 launch 실행 전 scope 취소 됨
+            150ms 후 1 추가
          */
 
         // assert문 수정하지 마세요!

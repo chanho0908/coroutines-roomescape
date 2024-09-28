@@ -47,9 +47,11 @@ class Step4 {
         collectorJob.cancelAndJoin()
 
         // then
-        val expected = "" // TODO: 결과값 예상
+        val expected = "true" // TODO: 결과값 예상
         /*
             TODO: 간단한 풀이과정 작성
+            b와 c에 모두 true가 방출된 경우만 onEach 블록을 탈 수 있음
+            맨 처음 c에 true가 emit 되었을 때 true 가 추가되고 이후는 X
          */
 
         // assert문 수정하지 마세요!

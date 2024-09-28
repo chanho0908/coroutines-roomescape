@@ -41,9 +41,13 @@ class Step2 {
         collectorJob2.cancelAndJoin()
 
         // then
-        val expected = "" // TODO: 결과값 예상
+        val expected = "1223344" // TODO: 결과값 예상
         /*
             TODO: 간단한 풀이과정 작성
+            [1] 1 수집
+            100ms 후 [1] 2 수집
+            150ms 후 [2] cache 로부터 2 수집
+            이후 3, 4 각각 [1], [2] 에서 추가됨
          */
 
         // assert문 수정하지 마세요!
