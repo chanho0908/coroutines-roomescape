@@ -58,3 +58,6 @@ assertHashcode(actual, expected)
 - 인터넷 검색, ChatGPT, Gemini 등 AI 활용은 모두 금지됩니다.
 - 문제를 풀기 위해 다른 참가자와 소통하거나, 외부의 도움을 받지 마세요.
 - 문제의 답을 유출하지 말아 주세요.
+
+## 자체 문제 풀이
+- https://chanho-study.tistory.com/145
